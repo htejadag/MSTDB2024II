@@ -3,10 +3,12 @@ package TDB2024II.MsSecurity.services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import TDB2024II.MsSecurity.model.UsuarioModel;
 import TDB2024II.MsSecurity.repository.IUsuarioRepository;
 
+@Service
 public class UsuarioService implements IUsuarioService {
 
     @Autowired
